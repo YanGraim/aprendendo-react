@@ -4,10 +4,10 @@ function App() {
   return (
     <div>
       <h1>Bem vindo ao meu projeto</h1>
-      <Nome aluno = "Yan Graim"/>
+      <Nome aluno = "Yan Graim" idade = {27}/>
       <br/>
-      <Nome aluno = "Wanessa Niederauer"/>
-
+      <br/> 
+      <Nome aluno = "Wanessa Niederauer" idade = {23}/>
     </div>
   );
 }
