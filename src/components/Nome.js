@@ -1,7 +1,7 @@
 
-function Nome() {
+function Nome(props) {
     return (
-      <span>Bem-vindo: Yan Graim</span>
+      <span>Bem-vindo: {props.aluno}</span>
    );
 }
 
